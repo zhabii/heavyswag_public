@@ -1,6 +1,8 @@
 
 # Heavy Swag Scanner
 
+![banner](https://github.com/zhabii/heavyswag_public/blob/main/images/banner.jpg)
+
 Модульный сканер безопасности для анализа сетевой/веб инфраструктуры
 
 ## Содержание 
