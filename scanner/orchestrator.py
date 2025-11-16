@@ -219,7 +219,7 @@ class Orchestrator(VerboseMixin):
 
 if __name__ == "__main__":
     # Тестирование
-    TARGET = "demo-airtickets.local"
+    TARGET = "127.0.0.1"
 
     orch = Orchestrator(TARGET, is_verbose=True)
     results = orch.scan_host()
