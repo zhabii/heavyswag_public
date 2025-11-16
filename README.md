@@ -242,12 +242,16 @@ pip install -r requirements.txt
 ## Использование 
 
 ### Запуск отдельных модулей
+```bash
+python scanner/modules/osint/dns_lookup.py
+```
+![gif](https://github.com/zhabii/heavyswag_public/blob/main/images/module_run.gif)
 
 ### Запуск через оркестратор
 ```bash
 python -m scanner.orchestrator | tee ~/scanner_results.txt 
 ```
-
+![gif](https://github.com/zhabii/heavyswag_public/blob/main/images/run_orc.gif)
 
 ### Запуск дополнительных функций
 ```python
